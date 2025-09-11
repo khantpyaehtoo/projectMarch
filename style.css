@@ -193,6 +193,10 @@ span{
     border-radius: 8px;
 }
 
+.swiper .rows a{
+    color: black;
+}
+
 .swiper .rows .cols:hover {
     box-shadow: 0 0 30px rgba(0, 0, 80, 0.247);
     border: 2px solid rgba(0, 0, 80, 0.247);
@@ -357,6 +361,33 @@ span{
     color: white;
 }
 
+/* Team Member */
+.member-titles {
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--blue);
+
+    margin: 40px 0;
+}
+
+.carousel-items {
+    width: 15%;
+    border-radius: 50%;
+    border: 5px solid var(--blue);
+}
+
+.carousel-item{
+    height: 400px;
+}
+
+.carousel-item > p{
+    color: var(--blue);
+    margin-top: 30px;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+
 /* Footer section */
 footer {
     margin-top: 120px;
@@ -415,4 +446,3 @@ footer {
 
     margin-top: 20px;
 }
-
